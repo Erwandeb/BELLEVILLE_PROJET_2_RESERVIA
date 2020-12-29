@@ -234,25 +234,29 @@ body{
 /*------------------------ Header ------------*/
     
     header {
-        text-align: center;
         height: 25vh;
         display: flex;
         text-align: center;
         justify-content: space-evenly;
         width: 100%;
     }
-    
+    header a {
+        height: 50%;
+        width:60%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+
+    }
+
    header .en_tete img {
         object-fit: cover;
-        height: 30%;
-        width : 50%;
         padding:0%;
     }
 
     header button {
         font-weight:bold;
         font-size: 1.5rem;
-        padding:2rem;
         }
 
 /*------------------------ Navigation ------------*/
