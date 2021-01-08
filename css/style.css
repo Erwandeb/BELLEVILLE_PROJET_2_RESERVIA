@@ -2,13 +2,21 @@
 /*------------------------GENERAL-----------------------------------------------*/
 
 *{
-    font-size : 10px;
+   
     font-family: 'Raleway', sans-serif;
     padding: 0;
     margin:0;
     box-sizing: border-box;
 }
-
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.container{
+    align-items:center;
+    margin:auto;
+    width:1440px;
+}
 h1 {
     font-size: 18px;
 }
@@ -215,6 +223,9 @@ header a button{
     width: 135px;
     font-size: 15px;
 }
+.barre_de_recherche .bouton:hover{
+    background-color: #0055d4 ;
+}
 
 .barre_de_recherche form .search-icon-button{
     display: none;
@@ -352,6 +363,13 @@ header a button{
     transition-duration: 400ms;
 }
 /*------------Texte informations--------*/
+.introduction p {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 400px;
+    font-size: 14px;
+}
 
 .introduction p i {
     color: #0065FC;
@@ -360,7 +378,8 @@ header a button{
     font-size: 12px;
     width: 25px;
     height:25px;
-    padding: 9px;
+    padding: 5px;
+    vertical-align: center;
     align-items: center;
     text-align:center;
     justify-content: center;
@@ -594,7 +613,8 @@ aside {
     display: grid;
     grid-template-columns: repeat(4 , auto);
     column-gap : 43px;
-    grid-template-rows: repeat(2,auto);
+    row-gap:2px;
+    grid-template-rows: repeat(10,45px);
     width: 1340px;
     height:450px;
 }
@@ -608,7 +628,7 @@ aside {
 
 #activites_marseille .img1{
  grid-column: 1;
- grid-row : span 2;
+ grid-row : 1/6;
 }
 #activites_marseille .img1 figure{
     height:445px;
@@ -636,10 +656,7 @@ aside {
 
 #activites_marseille .img2{
     grid-column: 2;
-    grid-row : 1;
-    height:235px;
-    width: 300px;
-    object-fit: cover;
+    grid-row : 1/7;
 
    }
    #activites_marseille .img2 figure{
@@ -668,8 +685,8 @@ aside {
 
 #activites_marseille .img3{
 grid-column: 2;
-grid-row: 2;
-bottom:0;
+grid-row-start: 7/10;
+
 }
 #activites_marseille .img3 figure{
     height:165px;
@@ -697,7 +714,7 @@ bottom:0;
 
 #activites_marseille .img4{
 grid-column:3;
-grid-row: span 2;
+grid-row: 1/6;
 }
 #activites_marseille .img4 figure{
     height:445px;
@@ -725,7 +742,7 @@ grid-row: span 2;
 
 #activites_marseille .img5{
 grid-column:4;
-grid-row:1;
+grid-row:1/8;
 
 }
 #activites_marseille .img5 figure{
@@ -753,7 +770,7 @@ grid-row:1;
 
 #activites_marseille .img6{
 grid-column: 4;
-grid-row:2;
+grid-row:6/10;
 }
 #activites_marseille .img6 figure{
     height:210px;
@@ -785,7 +802,7 @@ footer{
     height : 150px;
     justify-content: flex-start;
     align-items: center;
-    width:1340px;
+    width:100%
 }
 .colonnes_footer{
     width:1040px;
@@ -795,7 +812,6 @@ footer{
 
 .liens_footer h2{
      font-weight: bold;
-     margin : 10px;
      font-size: 16px;
 }
 
