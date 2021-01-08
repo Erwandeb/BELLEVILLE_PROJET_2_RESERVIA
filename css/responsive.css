@@ -1,18 +1,11 @@
 
-/*------------------------ RESPONSIVE LAPTOP ----------------------------------------*/
-
-/*------------------------ FIN RESPONSIVE LAPTOP ----------------------------------------*/
 
 
-
-
-
-
-
-
-
-
-/*------------------------ RESPONSIVE TABLET ------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*--------------------------- RESPONSIVE TABLETTE ---------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
   @media screen and (min-width:426px) and (max-width:1023px){
     .container{
         align-items:center;
@@ -50,10 +43,10 @@ header {
         text-align: center;
         align-items: center;
         text-decoration: none;
-    
     }
+
+
     /*-------------Logo------*/
-    
     header .en_tete a img {
         width : 100px;
         object-fit: contain;
@@ -63,19 +56,16 @@ header {
     
     
     /*-------------Navigation------*/
-    
     nav {
         display: flex;
         justify-content: space-around;
         width : 100%;
-    
     }
     
     nav ul {
         display: flex;
         width :100%;
         justify-content: flex-end;
-    
     }
     
     nav ul li {
@@ -106,6 +96,7 @@ header {
         color : #0065FC;
     }
     
+
     /*--------Bouton inscription------*/
     
     header a button{
@@ -144,19 +135,21 @@ header {
         height: 60px;
         justify-content: space-around;
     }
+
     .introduction .texte_introduction h1 {
         height:auto;
         width: auto;
         padding: 0;
         font-weight: bold;
     }
+
     .introduction .texte_introduction h3 {
        font-size: 14px; 
        font-weight: normal;
     }
     
     /*-------Barre de Recherche-----*/
-    
+
     .barre_de_recherche {
         cursor: pointer;
         height: 50px;
@@ -164,6 +157,7 @@ header {
         display: flex;
         align-items: center;
     }
+
     .barre_de_recherche form {
     
         display: flex;
@@ -185,8 +179,8 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        
     }
+
     .barre_de_recherche .champ {
         border-top :1px solid  #F2F2F2;
         border-bottom :1px solid #F2F2F2;
@@ -199,8 +193,8 @@ header {
         font-size: 15px;
         width:235px;
         padding:0px;
-    
     }
+
     .barre_de_recherche .bouton {
         border-radius: 0px 15px 15px 0px;
         background-color: #0065FC;
@@ -212,6 +206,7 @@ header {
         width: 135px;
         font-size: 15px;
     }
+
     .barre_de_recherche .bouton:hover{
         background-color: #0055d4 ;
     }
@@ -281,7 +276,6 @@ header {
         cursor: pointer;
         font-weight: bold;
         font-size:14px;
-    
     }
     
     .filtres .filtre_romantique {
@@ -337,21 +331,27 @@ header {
         color :#DEEBFF;
         transition-duration: 400ms;
     }
+
     .filtres .filtre_familial:hover {
         background-color:  #0065FC;
         color :#DEEBFF;
         transition-duration: 400ms;
     }
+
     .filtres .filtre_romantique:hover {
         background-color:  #0065FC;
         color :#DEEBFF;
         transition-duration: 400ms;
     }
+
     .filtres .filtre_animaux:hover {
         background-color:  #0065FC;
         color :#DEEBFF;
         transition-duration: 400ms;
     }
+
+
+
     /*------------Texte "Plus de 500 Logements disponibles..."--------*/
     .introduction p {
         align-items: center;
@@ -375,6 +375,7 @@ header {
         justify-content: center;
         display: inline-block;
     }
+
 /*-----------------------Fin de l'introduction---------------------------------------------*/
 
 
@@ -404,14 +405,17 @@ header {
         border-radius: 15px;
         height: 350px;
         padding: 30px;
-        
     }
+
+
     .titre_aside {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 708px;
     }
+
+
     .appartement_populaire {
         display: flex;
         flex-direction: row;
@@ -457,6 +461,8 @@ header {
     .texte_description_chambre_populaire{
         align-items: start;
     }
+
+
     .texte_description_chambre_populaire h2{
         width: 180px;
         align-items: start;
@@ -464,16 +470,22 @@ header {
         justify-content:flex-start;
         font-size: 16px;;
     }
+
+
     .texte_description_chambre_populaire p{
         align-items: start;
         text-align:start;
         justify-content:flex-start;
         width: 200px;
     }
+
+
     .rate_chambre {
         padding: 0px;
         text-align:start;
     }
+
+
 /*------------------------fin de section "Les plus populaires"---------------------------------------------*/ 
 
 
@@ -557,8 +569,9 @@ header {
         color : #0065FC;
         font-size: 12px;
         padding:0px;
-    
     }
+
+
     .rate_chambre{
         padding:0px;
     }
@@ -570,6 +583,8 @@ header {
         margin: 30px;
         width: 120px;
     }
+
+
  /*------------------------fin de section "Hebergements à Marseille"---------------------------------------------*/ 
 
 
@@ -586,7 +601,6 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        
     }
 
     #activites_marseille {
@@ -603,6 +617,8 @@ header {
         font-weight: bold;
         padding: 30px;
     }
+
+
 /*------------paramètres des images "activités"------------*/
     #activites_marseille .img1{
         box-shadow : 0px 0px 8px #00000063;
@@ -610,18 +626,24 @@ header {
         height: 195px;
         border-radius : 15px;
        }
+
+
        #activites_marseille .img1 figure{
         width: 200px;
         height: 195px;;
         box-shadow : 0px 0px 8px #00000063;
         border-radius : 15px;
        }
+
+
        #activites_marseille .img1 figure img{
         width: 200px;
         height: 150px;
-           object-fit: cover;
-           border-radius : 15px 15px 0px 0px;
+        object-fit: cover;
+        border-radius : 15px 15px 0px 0px;
        }
+
+
        #activites_marseille .img1 figure figcaption{
         width: 200px;
         height: 40px;
@@ -640,18 +662,21 @@ header {
         height: 195px;
         border-radius : 15px;
        }
+
        #activites_marseille .img2 figure{
         width: 200px;
         height: 195px;;
         box-shadow : 0px 0px 8px #00000063;
         border-radius : 15px;
        }
+
        #activites_marseille .img2 figure img{
         width: 200px;
         height: 150px;
-           object-fit: cover;
-           border-radius : 15px 15px 0px 0px;
+        object-fit: cover;
+        border-radius : 15px 15px 0px 0px;
        }
+
        #activites_marseille .img2 figure figcaption{
         width: 200px;
         height: 40px;
@@ -669,18 +694,21 @@ header {
         height: 195px;
         border-radius : 15px;
        }
+
        #activites_marseille .img3 figure{
         width: 200px;
         height: 195px;;
         box-shadow : 0px 0px 8px #00000063;
         border-radius : 15px;
        }
+
        #activites_marseille .img3 figure img{
         width: 200px;
         height: 150px;
-           object-fit: cover;
-           border-radius : 15px 15px 0px 0px;
+        object-fit: cover;
+        border-radius : 15px 15px 0px 0px;
        }
+       
        #activites_marseille .img3 figure figcaption{
         width: 200px;
         height: 40px;
@@ -699,18 +727,21 @@ header {
         height: 195px;
         border-radius : 15px;
        }
+
        #activites_marseille .img4 figure{
         width: 200px;
         height: 195px;;
         box-shadow : 0px 0px 8px #00000063;
         border-radius : 15px;
        }
+
        #activites_marseille .img4 figure img{
         width: 200px;
         height: 150px;
-           object-fit: cover;
-           border-radius : 15px 15px 0px 0px;
+        object-fit: cover;
+        border-radius : 15px 15px 0px 0px;
        }
+
        #activites_marseille .img4 figure figcaption{
         width: 200px;
         height: 40px;
@@ -724,22 +755,25 @@ header {
 
        #activites_marseille .img5{
         box-shadow : 0px 0px 8px #00000063;
-         width: 200px;
+        width: 200px;
         height: 195px;
         border-radius : 15px;
        }
+
        #activites_marseille .img5 figure{
         width: 200px;
         height: 195px;;
         box-shadow : 0px 0px 8px #00000063;
         border-radius : 15px;
        }
+
        #activites_marseille .img5 figure img{
         width: 200px;
         height: 150px;
            object-fit: cover;
            border-radius : 15px 15px 0px 0px;
        }
+
        #activites_marseille .img5 figure figcaption{
         width: 200px;
         height: 40px;
@@ -758,18 +792,21 @@ header {
         height: 195px;
         border-radius : 15px;
        }
+
        #activites_marseille .img6 figure{
         width: 200px;
         height: 195px;;
         box-shadow : 0px 0px 8px #00000063;
         border-radius : 15px;
        }
+
        #activites_marseille .img6 figure img{
         width: 200px;
         height: 150px;
-           object-fit: cover;
-           border-radius : 15px 15px 0px 0px;
+        object-fit: cover;
+        border-radius : 15px 15px 0px 0px;
        }
+
        #activites_marseille .img6 figure figcaption{
         width: 200px;
         height: 40px;
@@ -782,6 +819,7 @@ header {
        }
 
 
+
       /*------------FOOTER------------*/
        footer{
         display: flex;
@@ -791,6 +829,8 @@ header {
         align-items: center;
         width: 768px;
     }
+
+
     .colonnes_footer{
         width:708px;
         display: flex;
@@ -799,8 +839,12 @@ header {
         
     }
 }
-    
-/*------------------------ FIN RESPONSIVE TABLET ------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*------------------------ FIN RESPONSIVE TABLETTE ---------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
 
 
 
@@ -810,7 +854,16 @@ header {
 
 
 
-/*------------------------ RESPONSIVE MOBILE LARGE ----------------------------------------*/
+
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*------------------------ RESPONSIVE MOBILE --------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
 @media screen and (max-width:426px){
    
 /*------------------------général------------*/
@@ -820,30 +873,37 @@ body{
         margin-left:0;
         margin-right:0;
     }
+
+
 .container{
     width:426px;
     align-items:center;
     margin:auto;
 }
-/*------------------------ Header ------------*/
+
+
+
+/*----------------------SECTION INTRODUCTION -------------------*/
+    
+/*----------------------Header -------------------*/
     
     header {
         height: 130px;
         max-width: 425px;
         position: relative;
     }
+
     header .en_tete{
         max-width: 425px;
         height: 80px;
-        
     }
+
     header a {
         height: 50px;
         width:160px;
         text-align: center;
         align-items: center;
         justify-content: flex-end;
-
     }
 
    header .en_tete img {
@@ -856,6 +916,7 @@ body{
         left:0;
     }
 
+
     header button {
         font-weight:bold;
         font-size: 18px;
@@ -866,10 +927,9 @@ body{
         right:0;
         }
 
+
+
 /*------------------------ Navigation ------------*/
-   
-
-
     nav{
         position:absolute;
         display:flex;
@@ -887,7 +947,6 @@ body{
         justify-content: center;
         align-items: center;
         text-align: center;
-       
     }
 
     nav ul li {
@@ -898,7 +957,6 @@ body{
         font-size: 18px;
         border-bottom: 2px solid #F2F2F2;
         height:40px;
-    
     }
 
     nav ul li a {
@@ -919,7 +977,7 @@ body{
     }
 
 
-/*------------------------ SECTION INTRODUCTION------------*/
+
 
 /*------------------------ Texte introduction ------------*/
 .introduction{
@@ -930,9 +988,8 @@ body{
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-  
-
 }
+
 .texte_introduction {
         display: flex;
         flex-direction: column;
@@ -940,25 +997,25 @@ body{
         justify-content: center;
         max-width:350px;
         height:150px;
-
-
     }
+
     .introduction .texte_introduction {
         display: flex;
         font-weight: bold;
         font-size: 25px;
         justify-content: start;
     }
+
     .texte_introduction h1 {
         display: flex;
         font-weight: bold;
         font-size: 25px;
-     
     }
 
 
-/*----------------- Barre de recherche ------------*/
 
+
+/*----------------- Barre de recherche ------------*/
 .barre_de_recherche {
     cursor: pointer;
     height: 50px;
@@ -971,7 +1028,7 @@ body{
     align-items: center;
     text-align: center;
     font-size: 18px;
-    width:335px;
+    width: 360px;
 }
 
 .fa-map-marker-alt {
@@ -985,12 +1042,10 @@ body{
     border-top :2px solid  #F2F2F2;
     border-bottom :2px solid #F2F2F2;
     width:250px
-
 }
 
 .barre_de_recherche .bouton  {
    display: none;
-    
 }
 
 .barre_de_recherche form .search-icon-button{
@@ -1003,8 +1058,10 @@ body{
     height:50px;
     padding:12px;
     border-radius:15px;
-
 }
+
+
+
 /*------------------------ Filtres ---------------*/
    
 .filtres {
@@ -1015,10 +1072,12 @@ body{
         justify-content: space-between;
         padding : 5px;
     }
+
     .filtres h2 {
         font-weight: bold;
         font-size : 16px;
     }
+
     .bouton_filtres {
         display : flex;
         flex-wrap: wrap;
@@ -1035,18 +1094,20 @@ body{
     .filtres .bouton_filtres span i {
         font-size: 1rem;
     }
-    /*------------------------ texte ------------*/
+
+
+
+    /*------------------------ Texte "Plus de 500 logements sont disponibles" ------------*/
    
     .introduction p {
         padding : 0;
         height: 0;
         width: 385px;
         font-size: 14px;
-
     }
 
 
-    /*--------------------section hébergements ------------*/
+    /*--------------------section main (composé de "Les plus populaires" puis "Hébergements à Marseille") ------------*/
     
     main{
         display: flex;
@@ -1056,7 +1117,7 @@ body{
     }
 
 
-    /*---------------Aside ------------*/
+    /*---------------Section "Les plus Populaires" ------------*/
 
     aside{
        width: 425px;
@@ -1068,6 +1129,7 @@ body{
         margin-bottom: 0;
         padding:0px;
     }
+
     .appartement_populaire {
         display: flex;
         justify-content: space-around;
@@ -1075,11 +1137,13 @@ body{
         height: 480px;
         width: 350px;
     }
+
     .titre_aside{
         align-items: center;
         text-align: center;
         width: 335px;
     }
+
     .chambre_populaire {
         width: 335px;
         height: 145px;
@@ -1101,6 +1165,7 @@ body{
         margin:0px;
         width:200px;
     }
+
     .chambre_populaire img {
         width: 125px;
         height: 135px;
@@ -1110,21 +1175,24 @@ body{
 
     .texte_description_chambre_populaire{
         align-items: start;
-
     }
+
     .texte_description_chambre_populaire h2{
         width: 170px;
         align-items: start;
         text-align:start;
         justify-content:flex-start;
     }
+
     .texte_description_chambre_populaire p{
         align-items: start;
         text-align:start;
         justify-content:flex-start;
         width: 170px;
     }
-    /*---------------hebergement------------*/
+
+
+    /*--------------- section "Hébergement à Marseille"------------*/
     
     #hebergements {
         display: flex;
@@ -1136,11 +1204,13 @@ body{
         width: 425px;
         background-color:white;
     }
+
     #hebergements h2{
         width: 335px;
         align-items: start;
         text-align:start
     }
+
     .liste_hebergements {
         display: flex;
         flex-direction: column;
@@ -1158,6 +1228,7 @@ body{
         margin: 0;
         padding: 0;
     }
+
     #hebergements .liste_hebergements .chambre img {
         width: 330px;
         height: 115px;
@@ -1165,12 +1236,12 @@ body{
         padding: 5px;
         border-radius: 15px 15px 0px 0px;
     }
+
     #hebergements .liste_hebergements .chambre .description_chambre {
         width: 335px;
         padding:15px;
         height:80px;
         text-align: start;
-
     }
 
     #hebergements .liste_hebergements .chambre .description_chambre h2 {
@@ -1179,14 +1250,13 @@ body{
         padding: 0px;
         margin-left: 0px;
     }
+
     #hebergements .liste_hebergements .chambre .description_chambre p {
         font-size: 18px; 
-  
     }
 
     #hebergements .liste_hebergements .chambre .description_chambre .rate_chambre {
         font-size: 18px; 
-   
     }
 
     .see_more{
@@ -1195,6 +1265,7 @@ body{
         width:335px;
         font-size: 17px;
     }
+
     #hebergements .see_more h2 {
         cursor: pointer;
         font-weight: bold;
@@ -1202,12 +1273,17 @@ body{
         margin: 0px;
         width: 120px;
     }
-    /*---------------------Activites ----------*/
+
+
+     /*------------------------Fin de la section MAIN----------------------------------------------*/ 
+
+
+
+    /*------------------------Section "Activités"-----------------------------------------------*/ 
     #Activites{
         height:1430px;
         width:425px;
         align-items: center;
-        
     }
 
     #Activites h2 {
@@ -1226,6 +1302,8 @@ body{
         width: 336px;
        
     }
+
+    /*------------paramètres des images "activités"------------*/
     #activites_marseille .img1 figure {
         height: 190px;
         width: 335px;
@@ -1338,6 +1416,7 @@ body{
         justify-content: space-around;
         padding: 0px;
     }
+
     .colonnes_footer{
         display: flex;
         flex-direction: column;
@@ -1346,8 +1425,8 @@ body{
         width: 335px;
         justify-content: space-around;
         padding: 0px;
-
     }
+
     .liens_footer {
         display: flex;
         flex-direction: column;
@@ -1355,8 +1434,17 @@ body{
         padding: 0;
         font-size: large;
     }
+
+
+
+
 }
-/*------------------------ RESPONSIVE MOBILE LARGE ----------------------------------------*/
+
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*------------------------ FIN RESPONSIVE MOBILE ---------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
 
 
 
@@ -1364,20 +1452,3 @@ body{
 
 
 
-
-
-/*------------------------ RESPONSIVE MOBILE MEDIUM ----------------------------------------*/
-
-/*------------------------ FIN RESPONSIVE MOBILE MEDIUM ----------------------------------------*/
-
-
-
-
-
-
-
-
-
-/*------------------------ RESPONSIVE MOBILE SMALL ----------------------------------------*/
-
-/*------------------------ FIN RESPONSIVE MOBILE SMALL ----------------------------------------*/

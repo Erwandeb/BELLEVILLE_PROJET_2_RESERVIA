@@ -8,15 +8,18 @@
     margin:0;
     box-sizing: border-box;
 }
+
 body{
     margin-left: 5%;
     margin-right: 5%;
 }
+
 .container{
     align-items:center;
     margin:auto;
     width:1440px;
 }
+
 h1 {
     font-size: 18px;
 }
@@ -30,7 +33,11 @@ p {
     font-size: 12px;
 }
 
-/*------------------------PARTIE HEADER-----------------------------------------------*/
+
+/*--------------------------------SECTION INTRODUCTION ------------------------------*/
+
+
+/*---------------------Header---------------------*/
 
 header {
     width : 1340px;
@@ -59,8 +66,8 @@ header a {
     text-align: center;
     align-items: center;
     text-decoration: none;
-
 }
+
 /*-------------Logo------*/
 
 header .en_tete a img {
@@ -70,21 +77,19 @@ header .en_tete a img {
 
 
 
-
 /*-------------Navigation------*/
 
 nav {
     display: flex;
     justify-content: space-around;
     width : 100%;
-
 }
+
 
 nav ul {
     display: flex;
     width :100%;
     justify-content: flex-end;
-
 }
 
 nav ul li {
@@ -115,6 +120,8 @@ nav ul li a:hover{
     color : #0065FC;
 }
 
+
+
 /*--------Bouton inscription------*/
 
 header a button{
@@ -130,12 +137,12 @@ header a button{
     font-weight: 900;
 }
 
-/*--------FIN DU HEADER -----*/
 
 
 
-/*----------------------SECTION INTRODUCTION -------------------*/
 
+
+/*-------Text introduction-----*/
 .introduction {
     display: flex;
     flex-direction : column;
@@ -146,36 +153,37 @@ header a button{
     justify-content : space-between;
 }
 
-/*-------Text introduction-----*/
-
 .introduction .texte_introduction {
     display: flex;
     flex-direction: column;
     height: 60px;
     justify-content: space-around;
 }
+
 .introduction .texte_introduction h1 {
     height:auto;
     width: auto;
     padding: 0;
     font-weight: bold;
 }
+
 .introduction .texte_introduction h3 {
    font-size: 14px; 
    font-weight: normal;
 }
 
+
 /*-------Barre de Recherche-----*/
 
 .barre_de_recherche {
+    display: flex;
+    align-items: center;
     cursor: pointer;
     height: 50px;
     width: 420px;
-    display: flex;
-    align-items: center;
 }
-.barre_de_recherche form {
 
+.barre_de_recherche form {
     display: flex;
     align-items: center;
     text-align: center;
@@ -183,35 +191,35 @@ header a button{
     width: 100%;
     height:50px;
     font-weight: bold;
-   
 }
 
+
  .fa-map-marker-alt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
     padding: 15px;
     height:50px;
     width: 50px;
     font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
 }
+
 .barre_de_recherche .champ {
+    align-items: center;
+    text-align: center;
     border-top :1px solid  #F2F2F2;
     border-bottom :1px solid #F2F2F2;
     border-right: none;
     border-left: none;
     font-weight: bold;
-    align-items: center;
-    text-align: center;
     height:50px;
     font-size: 15px;
     width:235px;
     padding:0px;
-
 }
+
 .barre_de_recherche .bouton {
     border-radius: 0px 15px 15px 0px;
     background-color: #0065FC;
@@ -223,6 +231,7 @@ header a button{
     width: 135px;
     font-size: 15px;
 }
+
 .barre_de_recherche .bouton:hover{
     background-color: #0055d4 ;
 }
@@ -291,8 +300,8 @@ header a button{
     cursor: pointer;
     font-weight: bold;
     font-size:14px;
-
 }
+
 
 .filtres .filtre_romantique {
     border : 2px solid #F2F2F2;
@@ -311,6 +320,7 @@ header a button{
     font-size:14px;
 }
 
+
 .filtres .filtre_animaux {
     border : 2px solid #F2F2F2;
     border-radius: 25px;
@@ -327,6 +337,7 @@ header a button{
     font-weight: bold;
     font-size:14px;
 }
+
 
 .filtres  i {
     border-radius: 50px;
@@ -347,21 +358,27 @@ header a button{
     color :#DEEBFF;
     transition-duration: 400ms;
 }
+
 .filtres .filtre_familial:hover {
     background-color:  #0065FC;
     color :#DEEBFF;
     transition-duration: 400ms;
 }
+
 .filtres .filtre_romantique:hover {
     background-color:  #0065FC;
     color :#DEEBFF;
     transition-duration: 400ms;
 }
+
 .filtres .filtre_animaux:hover {
     background-color:  #0065FC;
     color :#DEEBFF;
     transition-duration: 400ms;
 }
+
+
+
 /*------------Texte informations--------*/
 .introduction p {
     align-items: center;
@@ -371,7 +388,13 @@ header a button{
     font-size: 14px;
 }
 
+
 .introduction p i {
+    display: inline-block;
+    vertical-align: center;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
     color: #0065FC;
     border : 2px solid #F2F2F2;
     border-radius : 50px;
@@ -379,12 +402,10 @@ header a button{
     width: 25px;
     height:25px;
     padding: 5px;
-    vertical-align: center;
-    align-items: center;
-    text-align:center;
-    justify-content: center;
-    display: inline-block;
+    
+    
 }
+
 
 /*--------FIN DU HEADER -----*/
 
@@ -459,11 +480,13 @@ main {
     padding:0px;
     margin-left:0px;
 }
+
 #hebergements .liste_hebergements .chambre .description_chambre p {
     font-size: 12px;
     padding:0px;
     margin-left:0px;
 }
+
 .chambre img {
     width: 240px;
     height: 115px;
@@ -475,7 +498,6 @@ main {
 .chambre h2 {
     font-size: 16px;
     padding:0px;
-
 }
 
 
@@ -483,16 +505,17 @@ main {
     color : #0065FC;
     font-size: 12px;
     padding:0px;
-
 }
+
 .rate_chambre{
     padding:0px;
 }
+
 .chambre:hover {
     transform: scale(1.02);
 }
 
-/*------------texte fin de section--------*/
+/*------------texte "affichez plus"--------*/
 
 #hebergements .see_more h2{
     cursor: pointer;
@@ -500,14 +523,14 @@ main {
     font-size: 15px;
     margin:10px;
     width: 120px;
-
 } 
-
 
 /*------------fin de section--------*/
 
 
-/*------------------------ASIDE (Dans l'element "Main"à droite)----------------------------------------------*/
+
+
+/*------------------------section "Les plus populaires"----------------------------------------------*/
 
 aside {
     display: flex;
@@ -519,6 +542,7 @@ aside {
     height : 630px;
     padding: 30px;
 }
+
 /*------------Titre et intro--------*/
 
 .titre_aside {
@@ -583,7 +607,7 @@ aside {
     font-size: 14px;
 }
 
-/*------------Fin du ASIDE --------*/
+/*------------Fin de section --------*/
 
 
 
@@ -591,19 +615,17 @@ aside {
 /*------------------------SECTION ACTIVITES(en deuxième partie du site internet) ----------------------------------------------*/
 
 #Activites {
-    width: 1340px;
-    height: 605px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
+    width: 1340px;
+    height: 605px;
     
 }
 
 /*------------Titre du bloc--------*/
 
 #Activites h2 {
-    
     font-size: 18px;
     font-weight: bold;
 }
@@ -619,29 +641,35 @@ aside {
     height:450px;
 }
 
+
 #activites_marseille figure:hover {
     transform: scale(1.02);
     cursor:pointer;
 }
 
 
+/*------------------------paramètres images du CSS grid-----------------------------------*/
 
+/*---image 1----*/
 #activites_marseille .img1{
  grid-column: 1;
  grid-row : 1/6;
 }
+
 #activites_marseille .img1 figure{
     height:445px;
     width: 300px;
     box-shadow : 0px 0px 8px #00000063;
     border-radius : 15px;
 }
+
 #activites_marseille .img1 figure img{
     height:390px;
     width:300px;
     object-fit: cover;
     border-radius : 15px 15px 0px 0px;
 }
+
 #activites_marseille .img1 figure figcaption{
     width: 300px;
     height:55px;
@@ -653,53 +681,57 @@ aside {
     padding: 15px;
 }
 
-
+/*---image 2----*/
 #activites_marseille .img2{
     grid-column: 2;
     grid-row : 1/7;
 
-   }
-   #activites_marseille .img2 figure{
-       height:235px;
-       width: 300px;
-       box-shadow : 0px 0px 8px #00000063;
-       border-radius : 15px;
-   }
-   #activites_marseille .img2 figure img{
-       height:180px;
-       width:300px;
-       object-fit: cover;
-       border-radius : 15px 15px 0px 0px;
-   }
-   #activites_marseille .img2 figure figcaption{
-       width: 300px;
-       height:55px;
-       font-weight: bold;
-       align-items: center;
-       font-size: 16px;
-       display:flex;
-       justify-content: space-between;
-       padding: 15px;
-   }
+}
+#activites_marseille .img2 figure{
+    height:235px;
+    width: 300px;
+    box-shadow : 0px 0px 8px #00000063;
+    border-radius : 15px;
+}
 
+#activites_marseille .img2 figure img{
+    height:180px;
+     width:300px;
+    object-fit: cover;
+    border-radius : 15px 15px 0px 0px;
+}
 
+#activites_marseille .img2 figure figcaption{
+    width: 300px;
+    height:55px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 16px;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/*---image 3----*/
 #activites_marseille .img3{
 grid-column: 2;
 grid-row-start: 7/10;
-
 }
+
 #activites_marseille .img3 figure{
     height:165px;
     width: 300px;
     box-shadow : 0px 0px 8px #00000063;
     border-radius : 15px;
 }
+
 #activites_marseille .img3 figure img{
     height:110px;
     width:300px;
     object-fit: cover;
     border-radius : 15px 15px 0px 0px;
 }
+
 #activites_marseille .img3 figure figcaption{
     width: 300px;
     height:55px;
@@ -712,22 +744,26 @@ grid-row-start: 7/10;
 }
 
 
+/*---image 4----*/
 #activites_marseille .img4{
 grid-column:3;
 grid-row: 1/6;
 }
+
 #activites_marseille .img4 figure{
     height:445px;
     width: 300px;
     box-shadow : 0px 0px 8px #00000063;
     border-radius : 15px;
 }
+
 #activites_marseille .img4 figure img{
     height:390px;
     width:300px;
     object-fit: cover;
     border-radius : 15px 15px 0px 0px;
 }
+
 #activites_marseille .img4 figure figcaption{
     width: 300px;
     height:55px;
@@ -739,24 +775,26 @@ grid-row: 1/6;
     padding: 15px;
 }
 
-
+/*---image 5----*/
 #activites_marseille .img5{
 grid-column:4;
 grid-row:1/8;
-
 }
+
 #activites_marseille .img5 figure{
     height:195px;
     width: 300px;
     box-shadow : 0px 0px 8px #00000063;
     border-radius : 15px;
 }
+
 #activites_marseille .img5 figure img{
     height:140px;
     width:300px;
     object-fit: cover;
     border-radius : 15px 15px 0px 0px;
 }
+
 #activites_marseille .img5 figure figcaption{
     width: 300px;
     height:55px;
@@ -768,22 +806,26 @@ grid-row:1/8;
     font-size: 16px;
 }
 
+/*---image 6----*/
 #activites_marseille .img6{
 grid-column: 4;
 grid-row:6/10;
 }
+
 #activites_marseille .img6 figure{
     height:210px;
     width: 300px;
     box-shadow : 0px 0px 8px #00000063;
     border-radius : 15px;
 }
+
 #activites_marseille .img6 figure img{
     height:155px;
     width:300px;
     object-fit: cover;
     border-radius : 15px 15px 0px 0px;
 }
+
 #activites_marseille .img6 figure figcaption{
     width: 300px;
     height:55px;
@@ -794,6 +836,10 @@ grid-row:6/10;
     justify-content: space-between;
     padding: 15px;
 }
+
+
+
+
 /*------------------------FOOTER----------------------------------------------*/
 
 footer{
