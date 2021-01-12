@@ -125,7 +125,7 @@ nav ul li a:hover{
 
 /*--------Bouton inscription------*/
 
-header a button{
+header .button{
     color : #0065FC;
     font-weight: bold;
     background-color: white;

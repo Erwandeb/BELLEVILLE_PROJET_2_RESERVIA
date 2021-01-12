@@ -99,7 +99,7 @@ header {
 
     /*--------Bouton inscription------*/
     
-    header a button{
+    header .button{
         color : #0065FC;
         font-weight: bold;
         background-color: white;
@@ -920,7 +920,7 @@ body{
     }
 
 
-    header button {
+    header .button {
         font-weight:bold;
         font-size: 18px;
         width:120px;
@@ -928,6 +928,9 @@ body{
         position:absolute;
         top:0;
         right:0;
+        align-items: center;
+        text-align:center;
+        padding: 35px
         }
 
 
