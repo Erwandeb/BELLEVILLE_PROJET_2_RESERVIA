@@ -1020,6 +1020,7 @@ body{
     cursor: pointer;
     height: 50px;
     width:335px;
+    position: relative;
 }
 
 .barre_de_recherche form {
@@ -1056,8 +1057,10 @@ body{
     font-weight: bold;
     width: 50px;
     height:50px;
-    padding:12px;
+    padding:14px;
     border-radius:15px;
+    position :absolute;
+    right: 10px;
 }
 
 
