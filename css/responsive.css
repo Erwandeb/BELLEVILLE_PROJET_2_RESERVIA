@@ -10,13 +10,15 @@
         align-items:center;
         margin:auto;
         width: 1024px;
+        padding-left:0;
+        padding-right:0;
     }  
 
 /*------------------------GENERAL-----------------------------------------------*/
 
 body{
-    padding-left:5%;
-    padding-right:5%;
+    padding-left:0;
+    padding-right:0;
 }
 
 
@@ -28,7 +30,7 @@ body{
 /*---------------------Header---------------------*/
 
 header {
-    width : 924px;
+    width : 100%;
     display: flex;
     text-align: center;
     align-items: center;
@@ -137,7 +139,7 @@ header .button{
     height: 250px;
     padding: 10px;
     margin: 0px;
-    width:924px;
+    width : 100%;
     justify-content : space-between;
 }
 
@@ -406,7 +408,7 @@ header .button{
 main {
     display : flex;
     justify-content: space-between;
-    width:924px;
+    width : 100%;
     height:630px;
 }
 
@@ -421,14 +423,16 @@ main {
     align-items: flex-start;
     background-color: #F2F2F2;
     border-radius: 15px;
-    width: 606px;
+    width: 665px;
     height :630px;
-    padding:30px;
+    padding:5px;
+    padding-top:10px;
+    
 }
 
 #hebergements h2 {
     margin-left: 10px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -436,14 +440,16 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 554px;
+    width: 655px;
     height: 460px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /*------------détails chambres--------*/
 
 #hebergements .chambre {
-    width: 170px;
+    width: 190px;
     height: 190px;
     border-radius: 15px;
     background-color: white;
@@ -459,7 +465,7 @@ main {
     flex-direction: column;
     justify-content: space-around;
     height: 60px;
-    width:170px;
+    width: 190px;
 }
 
 #hebergements .liste_hebergements .chambre .description_chambre h2 {
@@ -476,7 +482,7 @@ main {
 }
 
 .chambre img {
-    width: 160px;
+    width: 180px;
     height: 104px;
     object-fit: cover;
     padding:0px;
@@ -524,7 +530,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 290px;
+    width: 328px;
     background-color: #F2F2F2;
     border-radius: 15px;
     height : 630px;
@@ -537,7 +543,7 @@ aside {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 244px;
+    width: 286px;
 }
 
 .titre_aside i {
@@ -555,7 +561,7 @@ aside {
 }
 
 .chambre_populaire{
-    width: 244px;
+    width: 287px;
     height: 145px;
     border-radius: 15px;
     background-color: white;
@@ -606,7 +612,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 924px;
+    width : 100%;
     height: 605px;
     
 }
@@ -625,7 +631,7 @@ aside {
     column-gap : 43px;
     row-gap:2px;
     grid-template-rows: repeat(10,45px);
-    width: 924px;
+    width : 100%;
     height:450px;
 }
 
@@ -646,20 +652,20 @@ aside {
 
 #activites_marseille .img1 figure{
     height:445px;
-    width: 188px;
+    width: 223px;
     box-shadow : 0px 0px 8px #00000063;
     border-radius : 15px;
 }
 
 #activites_marseille .img1 figure img{
     height:390px;
-    width:188px;
+    width: 223px;
     object-fit: cover;
     border-radius : 15px 15px 0px 0px;
 }
 
 #activites_marseille .img1 figure figcaption{
-    width: 188px;
+    width: 223px;
     height:55px;
     font-weight: bold;
     align-items: center;
@@ -677,20 +683,20 @@ aside {
 }
 #activites_marseille .img2 figure{
     height:235px;
-    width: 188px;
+    width: 223px;
     box-shadow : 0px 0px 8px #00000063;
     border-radius : 15px;
 }
 
 #activites_marseille .img2 figure img{
     height:180px;
-    width: 188px;
+    width: 223px;
     object-fit: cover;
     border-radius : 15px 15px 0px 0px;
 }
 
 #activites_marseille .img2 figure figcaption{
-    width: 188px;
+    width: 223px;
     height:55px;
     font-weight: bold;
     align-items: center;
@@ -708,20 +714,20 @@ grid-row-start: 7/10;
 
 #activites_marseille .img3 figure{
     height:165px;
-    width: 188px;
+    width: 223px;
     box-shadow : 0px 0px 8px #00000063;
     border-radius : 15px;
 }
 
 #activites_marseille .img3 figure img{
     height:110px;
-    width: 188px;
+    width: 223px;
     object-fit: cover;
     border-radius : 15px 15px 0px 0px;
 }
 
 #activites_marseille .img3 figure figcaption{
-    width: 188px;
+    width: 223px;
     height:55px;
     font-weight: bold;
     align-items: center;
@@ -740,20 +746,20 @@ grid-row: 1/6;
 
 #activites_marseille .img4 figure{
     height:445px;
-    width: 188px;
+    width: 223px;
     box-shadow : 0px 0px 8px #00000063;
     border-radius : 15px;
 }
 
 #activites_marseille .img4 figure img{
     height:390px;
-    width: 188px;
+    width: 223px;
     object-fit: cover;
     border-radius : 15px 15px 0px 0px;
 }
 
 #activites_marseille .img4 figure figcaption{
-    width: 188px;
+    width: 223px;
     height:55px;
     font-weight: bold;
     align-items: center;
@@ -771,20 +777,20 @@ grid-row:1/8;
 
 #activites_marseille .img5 figure{
     height:195px;
-    width: 188px;
+    width: 223px;
     box-shadow : 0px 0px 8px #00000063;
     border-radius : 15px;
 }
 
 #activites_marseille .img5 figure img{
     height:140px;
-    width: 188px;
+    width: 223px;
     object-fit: cover;
     border-radius : 15px 15px 0px 0px;
 }
 
 #activites_marseille .img5 figure figcaption{
-    width: 188px;
+    width: 223px;
     height:55px;
     display:flex;
     justify-content: space-between;
@@ -802,20 +808,20 @@ grid-row:6/10;
 
 #activites_marseille .img6 figure{
     height:210px;
-    width: 188px;
+    width: 223px;
     box-shadow : 0px 0px 8px #00000063;
     border-radius : 15px;
 }
 
 #activites_marseille .img6 figure img{
     height:155px;
-    width: 188px;
+    width: 223px;
     object-fit: cover;
     border-radius : 15px 15px 0px 0px;
 }
 
 #activites_marseille .img6 figure figcaption{
-    width: 188px;
+    width: 223px;
     height:55px;
     font-weight: bold;
     align-items: center;
