@@ -416,7 +416,6 @@ main {
 /*------------Section hébergements--------*/
 
 #hebergements {
-    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -427,7 +426,6 @@ main {
     height :630px;
     padding:5px;
     padding-top:10px;
-    
 }
 
 #hebergements h2 {
@@ -889,6 +887,8 @@ footer{
         align-items:center;
         margin:auto;
         width:768px;
+        padding-left:0;
+        padding-right:0;
     }   
 
 /*----------------------SECTION INTRODUCTION -------------------*/
@@ -1760,6 +1760,8 @@ body{
     width:426px;
     align-items:center;
     margin:auto;
+    padding-left:0;
+    padding-right:0;
 }
 
 
