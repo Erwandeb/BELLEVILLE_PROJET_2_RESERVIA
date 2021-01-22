@@ -383,16 +383,19 @@ header .button{
 
 
 /*------------Texte informations--------*/
-.introduction p {
+.informations-utiles{
+    width: 400px;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    display: flex;
-    width: 400px;
+}
+
+.introduction p {
     font-size: 14px;
 }
 
 
-.introduction p i {
+.informations-utiles i {
     display: inline-block;
     vertical-align: center;
     align-items: center;
