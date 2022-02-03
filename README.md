@@ -18,11 +18,8 @@ Ce projet consiste à implémanter une maquette d'un site internet de réservati
 
 ## Quelques captures d'écrans : 
 
-<img width="930" alt="Capture" src="https://user-images.githubusercontent.com/73883090/152122424-2a1744d4-9b54-45b8-ad17-bd717bb654de.PNG">
 
-<img width="930" alt="Capture2" src="https://user-images.githubusercontent.com/73883090/152122494-b324d909-c141-47a8-912d-d144cef596ad.PNG">
-
-<img width="930" alt="Capture3" src="https://user-images.githubusercontent.com/73883090/152122523-7990eb12-aa31-4875-96ce-0963d43f0bc8.PNG">
+<img width="930" alt="Capture" src="https://user-images.githubusercontent.com/73883090/152317836-51eab14e-d1a3-4d9f-aef6-b8114eebf486.PNG">
 
 
 
